@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ZG Fitness</string>
+    <string name="about">Proudly Canadian? So are we! With the goal of helping Canada get fit at a super low cost, ZG Fitness opened its first location in Mississauga on a bright and sunny Friday in April 2011. We have continued to expand rapidly, opening 5 locations across Canada since this wonderful day. No matter if you’re exploring Peggy and her cove in Nova Scotia or skiing the majestic mountains in BC, we have a gym conveniently located close to you.</string>
+    <string name="button1">Get Membership</string>
+    <string name="button2">Our Services</string>
+    <string name="thankyou">THANK YOU FOR JOINING ZG FITNESS</string>
+    <string name="ordernum">Your membership number is: 1211</string>
+    <string name="confirm">We will email your membership details and joining information.</string>
+    <string name="button3">Back to App</string>
+    <string name="shipping">Member Information</string>
+    <string name="fullname">Full Name</string>
+    <string name="mob">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+    <string name="postalcode">Postal Code</string>
+    <string name="payment">Payment Details</string>
+    <string name="nameoncard">Full Name on Card</string>
+    <string name="cardno">Card Number</string>
+    <string name="expires">Expires</string>
+    <string name="cvv">CVV</string>
+    <string name="button4">Cancel</string>
+    <string name="button5">Submit</string>
+    <string name="login">Login</string>
+    <string name="details">Membership</string>
+    <string name="types">Select your Membership</string>
+    <string name="register">Register</string>
+    <string name="list">Get Membership</string>
+    <string name="services">Our Services</string>
+    <string name="back">Back</string>
+    <string name="success">Success</string>
+    <string name="addtocart">Get this Membership</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="edit">Edit Profile</string>
+</resources>

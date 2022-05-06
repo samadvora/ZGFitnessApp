@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_marginTop="50dp"
+    android:layout_weight="1"
+    android:transformPivotX="0dp"
+    android:transformPivotY="0dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.5"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Gold"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtName"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
+                    android:text="ZG Gold Membership Plan."
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtMonthlyFee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtDescription"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
+                    android:text="$5 Per Day"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="89dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentLeft="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/fitness1" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

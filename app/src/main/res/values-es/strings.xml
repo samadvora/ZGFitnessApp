@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ZG Fitness</string>
+    <string name="about">¿Orgullosamente canadiense? ¡Así somos nosotros! Con el objetivo de ayudar a Canadá a ponerse en forma a un costo muy bajo, ZG Fitness abrió su primera ubicación en Mississauga un brillante y soleado viernes de abril de 2011. Continuamos expandiéndonos rápidamente, abriendo 5 ubicaciones en Canadá desde este maravilloso día. No importa si está explorando Peggy y su cala en Nueva Escocia o esquiando en las majestuosas montañas de BC, tenemos un gimnasio convenientemente ubicado cerca de usted.</string>
+    <string name="button1">Obtener membresía</string>
+    <string name="button2">Nuestros servicios</string>
+    <string name="thankyou">GRACIAS POR UNIRTE A ZG FITNESS</string>
+    <string name="ordernum">Su número de socio es: 1211</string>
+    <string name="confirm">Le enviaremos por correo electrónico los detalles de su membresía y la información para unirse.</string>
+    <string name="button3">Volver a la aplicación</string>
+    <string name="shipping">Información de miembro</string>
+    <string name="fullname">Nombre completo</string>
+    <string name="mob">Número de teléfono móvil</string>
+    <string name="address">Dirección</string>
+    <string name="city">Ciudad</string>
+    <string name="province">Provincia</string>
+    <string name="postalcode">Código postal</string>
+    <string name="payment">Detalles del pago</string>
+    <string name="nameoncard">Nombre completo en la tarjeta</string>
+    <string name="cardno">Número de tarjeta</string>
+    <string name="expires">Caduca</string>
+    <string name="cvv">CVV</string>
+    <string name="button4">Cancelar</string>
+    <string name="button5">Entregar</string>
+    <string name="login">Acceso</string>
+    <string name="details">Afiliación</string>
+    <string name="types">Selecciona tu Membresía</string>
+    <string name="register">Registro</string>
+    <string name="list">Obtener membresía</string>
+    <string name="services">Nuestros servicios</string>
+    <string name="back">Atrás</string>
+    <string name="success">Éxito</string>
+    <string name="addtocart">Obtenga esta Membresía</string>
+    <string name="title_activity_maps">MapasActividad</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_row="0"
+    android:layout_column="1"
+    android:layout_weight="1"
+    android:background="@drawable/backimage"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:padding="10dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/bronze" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bronze"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp"
+                                    app:boxStrokeColor="@color/colorAccent"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/desc"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="ZG Fitness Bronze Membership!"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/monthlyFee"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="$15 Monthly."
+                                android:textSize="15dp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="#FF0000"/>
+
+                            <TextView
+                                android:id="@+id/admissionFee"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="$50 Admission Fee"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/commitment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="No"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:id="@+id/facilities"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="Unlimited Access to Home Club, PF Mobile App."
+                                android:textSize="15dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/darker_gray"
+                android:text="Back" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#428af5"
+                android:text="Purchase" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>
